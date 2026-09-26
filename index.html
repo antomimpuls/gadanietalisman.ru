@@ -11,10 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 <script>
 const SITE_SETTINGS = {
-  'phoneNumber': '+79882545168',
-  'psychicName': 'Мария Николаевна',
+  'phoneNumber': '+79034551278',
+  'psychicName': 'Ася',
   'telegramEnabled': 1,
-  'telegramNickname': 'Mariaa199',
+  'telegramNickname': 'mag_taro8',
   'city': 'Москва (район Дорогомилово)',
   'address': 'г. Москва, Кутузовский пр-т, д. 12, офис 904',
   'enableRedirect': false,
@@ -26,12 +26,11 @@ const SITE_SETTINGS = {
   'psychicImageURL': 'https://raw.githubusercontent.com/antomimpuls/gadanietalisman.ru/main/VTF8Z36HIcK_RaUBi9dugVJHIYK-zeXdIOrO2G65QodR1e1A6X6ixziF7KGYuxG_nbLckbModsi0qo9DFraD1l8U.jpg',
   'workingHours': 'ежедневно 07:00-00:00',
   'responseTime': '4 минуты',
-  'metrikaMessengerVisible': false
-,
-  "maxEnabled": false,
-  "maxUrl": ""
+  'metrikaMessengerVisible': false,
+  'maxEnabled': false,
+  'maxUrl': ""
 };
-const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Мария Николаевна';
+const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Ася';
 const PHONE_DIGITS=(SITE_SETTINGS.phoneNumber||'').replace(/\D/g,'');
 const WHATSAPP_MESSAGE=PSYCHIC_NAME ? `Здравствуйте, ${PSYCHIC_NAME}! Хочу обратиться к вам за помощью.` : 'Здравствуйте, хочу обратиться к вам за помощью.';
 const TELEGRAM_MESSAGE=WHATSAPP_MESSAGE;
@@ -1132,7 +1131,7 @@ function setupReveal(){
 }
 
 function setImagesAndTexts(){
-    const psychicName = SETTINGS.psychicName || 'Мария Николаевна';
+    const psychicName = SETTINGS.psychicName || 'Ася';
     const heroName = document.getElementById('heroName');
     if (heroName) {
         const titleEl = heroName.querySelector('.psychic-name-title');
